@@ -1,7 +1,13 @@
-# How-to-install-grafana
-Link https://grafana.com/grafana/download
-## Ubuntu and Debian
-### Install
+# How-to-install-influxdb-grafana
+influxdb : https://docs.influxdata.com/influxdb/v2.0/install/?t=Linux
+grafana : https://grafana.com/grafana/download
+
+## install influxdb
+```
+
+```
+
+## Install grafana Ubuntu and Debian
 ```
 sudo apt-get install -y adduser libfontconfig1
 wget https://dl.grafana.com/enterprise/release/grafana-enterprise_9.5.2_amd64.deb
