@@ -23,10 +23,8 @@ dpkg -i grafana-enterprise_9.5.2_amd64.deb
 ```
 ### Status
 ```
-/bin/systemctl daemon-reloa
-/bin/systemctl enable grafana-server
-```
-### Start Server
-```
-/bin/systemctl start grafana-server
+systemctl daemon-reloa
+systemctl enable grafana-server
+systemctl start grafana-server
+systemctl status grafana-server
 ```
