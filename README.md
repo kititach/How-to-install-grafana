@@ -17,9 +17,9 @@ systemctl status influxdb
 
 ## Install grafana Ubuntu and Debian
 ```
-sudo apt-get install -y adduser libfontconfig1
+apt-get install -y adduser libfontconfig1
 wget https://dl.grafana.com/enterprise/release/grafana-enterprise_9.5.2_amd64.deb
-sudo dpkg -i grafana-enterprise_9.5.2_amd64.deb
+dpkg -i grafana-enterprise_9.5.2_amd64.deb
 ```
 ### Status
 ```
