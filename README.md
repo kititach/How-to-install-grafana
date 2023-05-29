@@ -11,8 +11,14 @@ echo 'deb [signed-by=/etc/apt/trusted.gpg.d/influxdata-archive_compat.gpg] https
 ```
 ### Status
 ```
+systemctl enable influxdb
 systemctl start influxdb
 systemctl status influxdb
+```
+### restart and stop
+```
+systemctl restart influxdb
+systecmtl stop influxdb
 ```
 
 ## Install grafana Ubuntu and Debian
