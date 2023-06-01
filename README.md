@@ -1,6 +1,6 @@
 # How-to-install-influxdb-grafana
-influxdb : https://docs.influxdata.com/influxdb/v2.0/install/?t=Linux
-grafana : https://grafana.com/grafana/download
+- influxdb : https://portal.influxdata.com/downloads/
+- grafana : https://grafana.com/grafana/download
 
 ## For Ubuntu/Debian users, add the InfluxData repository with the following commands
 ```
@@ -11,14 +11,13 @@ echo 'deb [signed-by=/etc/apt/trusted.gpg.d/influxdata-archive_compat.gpg] https
 ```
 ### Status
 ```
-systemctl enable influxdb
-systemctl start influxdb
-systemctl status influxdb
+systemctl start influxdb  or service influxdb start
+systemctl status influxdb or service influxdb status
 ```
 ### restart and stop
 ```
-systemctl restart influxdb
-systecmtl stop influxdb
+systemctl restart influxdb  or service influxdb restart
+systecmtl stop influxdb     or service influxdb stop
 ```
 
 ## Install grafana Ubuntu and Debian
